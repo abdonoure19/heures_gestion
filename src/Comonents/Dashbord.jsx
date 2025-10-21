@@ -101,8 +101,6 @@ export default function Dashboard() {
                 <th className="px-4 py-2">Nom</th>
                 <th className="px-4 py-2">Poste</th>
                 <th className="px-4 py-2">Date</th>
-                <th className="px-4 py-2">Entrée</th>
-                <th className="px-4 py-2">Sortie</th>
                 <th className="px-4 py-2">Heures supp</th>
                 <th className="px-4 py-2">Détails</th>
               </tr>
@@ -114,8 +112,6 @@ export default function Dashboard() {
                   <td className="px-4 py-2 font-medium">{emp.nom}</td>
                   <td className="px-4 py-2">{emp.poste}</td>
                   <td className="px-4 py-2">{emp.date}</td>
-                  <td className="px-4 py-2">{emp.entree}</td>
-                  <td className="px-4 py-2">{emp.sortie}</td>
                   <td className="px-4 py-2 text-green-600 font-semibold">{emp.heuresSupp}</td>
                   <td className="px-4 py-2">
                     <button
